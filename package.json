@@ -1,1 +1,9 @@
-   {"name":"vb-relay","version":"1.0.0","main":"relay-server.js","scripts":{"start":"node relay-server.js"},"dependencies":{"ws":"^8.18.0"}}
+{
+  "name": "vb-relay",
+  "version": "1.0.0",
+  "description": "Voxel Blades message relay",
+  "main": "relay-server.js",
+  "scripts": { "start": "node relay-server.js" },
+  "dependencies": { "ws": "^8.18.0" },
+  "engines": { "node": ">=18" }
+}
